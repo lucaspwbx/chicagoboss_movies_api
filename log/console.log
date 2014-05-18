@@ -1,0 +1,332 @@
+2014-05-18 16:46:28.508 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.519 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.536 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.578 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 16:46:28.588 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 16:46:28.643 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:46:28.658 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.695 [info] <0.94.0> SSL:[]
+
+2014-05-18 16:46:28.700 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:46:28.704 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.709 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.722 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 16:46:28.722 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:46:28.722 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 16:46:28.785 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:46:28.796 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:46:28.825 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:46:28.839 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 16:46:28.840 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:46:28.851 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/tag_modules/movies_api_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:46:28.860 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/filter_modules/movies_api_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:46:28.862 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:46:28.914 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 16:46:34.021 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:46:34.024 [warning] <0.6.0> lager_error_logger_h dropped 55 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 16:46:34.024 [info] <0.261.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:46:34.041 [notice] <0.272.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 16:46:34.041 [notice] <0.272.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 16:46:34.047 [info] <0.272.0> GET /greeting/hello [movies_api] 200 0ms
+2014-05-18 16:49:08.456 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-18 16:49:08.503 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:49:08.504 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/test/functional/movies_api_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.532 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.555 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.559 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 16:49:08.560 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.565 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/tag_modules/movies_api_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.569 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/filter_modules/movies_api_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:49:08.572 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:49:08.648 [info] <0.7.0> Application movies_api started on node nonode@nohost
+2014-05-18 16:49:08.648 [info] <0.180.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:49:08.648 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-18 16:49:08.662 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-18 16:49:08.662 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 16:49:08.666 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:49:08.667 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:49:08.674 [notice] <0.235.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 16:49:08.674 [notice] <0.235.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 16:52:13.214 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-18 16:52:13.259 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:52:13.280 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/test/functional/movies_api_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.330 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.347 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/mail/movies_api_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.350 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 16:52:13.350 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.354 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/tag_modules/movies_api_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.358 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/view/lib/filter_modules/movies_api_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:52:13.360 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:52:13.522 [info] <0.7.0> Application movies_api started on node nonode@nohost
+2014-05-18 16:52:13.522 [info] <0.180.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:52:13.533 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-18 16:52:13.611 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-18 16:52:13.611 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 16:52:13.646 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:52:13.648 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:52:13.709 [notice] <0.235.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 16:52:13.709 [notice] <0.235.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 16:55:30.809 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:30.816 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:30.832 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:30.881 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 16:55:30.893 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 16:55:30.943 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:55:30.959 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:30.997 [info] <0.94.0> SSL:[]
+
+2014-05-18 16:55:31.001 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:55:31.006 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:31.010 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:31.011 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 16:55:31.026 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:55:31.026 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 16:55:31.084 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:55:31.100 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 16:55:31.103 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:55:31.142 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/model/movie.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:55:31.142 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},movie},{',',{1,14}},{'[',{1,16}},{var,{1,17},'Id'},{',',{1,19}},{var,{1,21},'Title'},{',',{1,26}},{var,{1,28},'Description'},{']',{1,39}},{')',{1,40}},{dot,{1,41}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-18 16:55:31.142 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "movie" Parameters ['Id','Title','Description'] Attributes[{compile,export_all}]
+2014-05-18 16:55:31.172 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:55:31.222 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 16:55:42.695 [notice] <0.270.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:55:42.699 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 16:55:42.699 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:55:42.719 [notice] <0.270.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 16:55:42.719 [notice] <0.270.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 16:55:42.738 [info] <0.270.0> GET /greeting/movies [movies_api] 200 0ms
+2014-05-18 16:58:57.094 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.104 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.117 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.160 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 16:58:57.171 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 16:58:57.225 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:58:57.242 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.280 [info] <0.94.0> SSL:[]
+
+2014-05-18 16:58:57.285 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 16:58:57.290 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.294 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.308 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 16:58:57.308 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 16:58:57.319 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 16:58:57.373 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 16:58:57.389 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 16:58:57.392 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:58:57.422 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 16:58:57.423 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:58:57.423 [error] <0.94.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:58:57.423 [error] <0.94.0>@boss_load:make_all_modules:88 Load Module Error controller_modules : [[{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]]
+2014-05-18 16:58:57.445 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/model/movie.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:58:57.445 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},movie},{',',{1,14}},{'[',{1,16}},{var,{1,17},'Id'},{',',{1,19}},{var,{1,21},'Title'},{',',{1,26}},{var,{1,28},'Description'},{']',{1,39}},{')',{1,40}},{dot,{1,41}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-18 16:58:57.445 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "movie" Parameters ['Id','Title','Description'] Attributes[{compile,export_all}]
+2014-05-18 16:58:57.473 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 16:58:57.520 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 16:59:05.636 [notice] <0.270.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:05.640 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 16:59:05.640 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:05.642 [error] <0.270.0> GET /movies [movies_api] 404 0ms
+2014-05-18 16:59:22.619 [notice] <0.273.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:22.620 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:22.622 [error] <0.273.0> GET /movies/list [movies_api] 404 0ms
+2014-05-18 16:59:29.239 [notice] <0.276.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:29.240 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:29.254 [info] <0.276.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 16:59:29.254 [notice] <0.276.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:59:29.274 [notice] <0.276.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 16:59:29.274 [notice] <0.276.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 16:59:29.289 [info] <0.276.0> GET /movie/list [movies_api] 200 0ms
+2014-05-18 16:59:38.883 [notice] <0.279.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:38.884 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:38.886 [info] <0.279.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 16:59:38.886 [notice] <0.279.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:59:38.886 [error] <0.279.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:59:38.903 [info] <0.279.0> GET /movie/list [movies_api] 200 0ms
+2014-05-18 16:59:38.992 [notice] <0.280.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:44.126 [notice] <0.282.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:44.127 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:44.130 [info] <0.282.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 16:59:44.131 [notice] <0.282.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:59:44.131 [error] <0.282.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:59:44.131 [info] <0.282.0> GET /movie/ [movies_api] 200 0ms
+2014-05-18 16:59:47.044 [notice] <0.283.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 16:59:47.045 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 16:59:47.048 [info] <0.283.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 16:59:47.048 [notice] <0.283.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 16:59:47.049 [error] <0.283.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:59:47.049 [info] <0.283.0> GET /movie/ [movies_api] 200 0ms
+2014-05-18 17:00:00.529 [notice] <0.288.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:00:00.530 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:00:00.532 [info] <0.288.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl
+2014-05-18 17:00:00.533 [notice] <0.288.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:00:00.538 [notice] <0.288.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:00:00.538 [notice] <0.288.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:00:00.538 [notice] <0.288.0>@boss_controller_adapter_pmod:action:100 [ChicagoBoss] The function movies_api_movie_controller:index/2 is not exported, if in doubt add -export([index/2])) to the module
+2014-05-18 17:00:00.544 [error] <0.288.0> GET /movie/ [movies_api] 404 0ms
+2014-05-18 17:00:05.779 [notice] <0.293.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:00:05.780 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:00:05.785 [notice] <0.293.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:00:05.785 [notice] <0.293.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:00:05.786 [info] <0.293.0> GET /movie/list [movies_api] 200 0ms
+2014-05-18 17:00:44.166 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.174 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.189 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.235 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 17:00:44.246 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 17:00:44.294 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:00:44.312 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.349 [info] <0.94.0> SSL:[]
+
+2014-05-18 17:00:44.352 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:00:44.357 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.361 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.376 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:00:44.376 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 17:00:44.379 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 17:00:44.434 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 17:00:44.450 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 17:00:44.453 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:00:44.487 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl
+2014-05-18 17:00:44.488 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:00:44.504 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/model/movie.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:00:44.505 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},movie},{',',{1,14}},{'[',{1,16}},{var,{1,17},'Id'},{',',{1,19}},{var,{1,21},'Title'},{',',{1,26}},{var,{1,28},'Description'},{']',{1,39}},{')',{1,40}},{dot,{1,41}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-18 17:00:44.505 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "movie" Parameters ['Id','Title','Description'] Attributes[{compile,export_all}]
+2014-05-18 17:00:44.538 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 17:00:44.584 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 17:00:50.098 [notice] <0.271.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:00:50.101 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 17:00:50.101 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:00:50.118 [notice] <0.271.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:00:50.118 [notice] <0.271.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:00:50.136 [info] <0.271.0> GET /movies/list [movies_api] 200 0ms
+2014-05-18 17:03:23.210 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.218 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.233 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.272 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 17:03:23.284 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 17:03:23.329 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:03:23.344 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.378 [info] <0.94.0> SSL:[]
+
+2014-05-18 17:03:23.382 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:03:23.387 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.391 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.403 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:03:23.403 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 17:03:23.440 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 17:03:23.462 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 17:03:23.479 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 17:03:23.484 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:03:23.515 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl
+2014-05-18 17:03:23.515 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:03:23.531 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/model/movie.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:03:23.531 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},movie},{',',{1,14}},{'[',{1,16}},{var,{1,17},'Id'},{',',{1,19}},{var,{1,21},'Title'},{',',{1,26}},{var,{1,28},'Description'},{']',{1,39}},{')',{1,40}},{dot,{1,41}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-18 17:03:23.531 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "movie" Parameters ['Id','Title','Description'] Attributes[{compile,export_all}]
+2014-05-18 17:03:23.559 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 17:03:23.604 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 17:03:29.640 [notice] <0.271.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:03:29.643 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 17:03:29.643 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:03:29.662 [notice] <0.271.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:03:29.662 [notice] <0.271.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:03:29.662 [notice] <0.271.0>@boss_controller_adapter_pmod:action:100 [ChicagoBoss] The function movies_api_movies_controller:index/2 is not exported, if in doubt add -export([index/2])) to the module
+2014-05-18 17:03:29.676 [error] <0.271.0> GET /movies/ [movies_api] 404 0ms
+2014-05-18 17:03:40.361 [notice] <0.273.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:03:40.363 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:03:40.368 [notice] <0.273.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:03:40.368 [notice] <0.273.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:03:40.380 [info] <0.273.0> GET /movies/list [movies_api] 200 0ms
+2014-05-18 17:04:14.283 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:04:14.285 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:04:14.289 [notice] <0.275.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:04:14.289 [notice] <0.275.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:04:14.289 [notice] <0.275.0>@boss_controller_adapter_pmod:action:100 [ChicagoBoss] The function movies_api_movies_controller:index/2 is not exported, if in doubt add -export([index/2])) to the module
+2014-05-18 17:04:14.291 [error] <0.275.0> GET /movies/ [movies_api] 404 0ms
+2014-05-18 17:16:58.561 [info] <0.7.0> Application lager started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.570 [info] <0.7.0> Application crypto started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.583 [info] <0.7.0> Application mimetypes started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.628 [info] <0.94.0> Starting Boss in development mode....
+
+2014-05-18 17:16:58.638 [info] <0.94.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-18 17:16:58.689 [info] <0.94.0> Starting master services on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:16:58.704 [info] <0.7.0> Application tinymq started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.740 [info] <0.94.0> SSL:[]
+
+2014-05-18 17:16:58.744 [info] <0.94.0> Starting cowboy... on 'movies_api@Lucass-MacBook-Air'
+
+2014-05-18 17:16:58.749 [info] <0.7.0> Application cowlib started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.753 [info] <0.7.0> Application ranch started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.766 [info] <0.7.0> Application cowboy started on node 'movies_api@Lucass-MacBook-Air'
+2014-05-18 17:16:58.766 [info] <0.94.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-18 17:16:58.776 [notice] <0.62.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-18 17:16:58.826 [info] <0.94.0>@boss_load:load_all_modules:57 Loading application movies_api
+2014-05-18 17:16:58.842 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl
+2014-05-18 17:16:58.846 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_greeting_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:16:58.877 [info] <0.94.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl
+2014-05-18 17:16:58.877 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:16:58.894 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/model/movie.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_record_compiler.trick_out_forms.2>},{token_transform,#Fun<boss_record_compiler.process_tokens.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:16:58.895 [info] <0.94.0>@boss_record_compiler:process_tokens:120 Tokens [{'-',{1,1}},{atom,{1,2},module},{'(',{1,8}},{atom,{1,9},movie},{',',{1,14}},{'[',{1,16}},{var,{1,17},'Id'},{',',{1,19}},{var,{1,21},'Title'},{',',{1,26}},{var,{1,28},'Description'},{']',{1,39}},{')',{1,40}},{dot,{1,41}},{'-',{2,1}},{atom,{2,2},compile},{'(',{2,9}},{atom,{2,10},export_all},{')',{2,20}},{dot,{2,21}},{eof,{3,1}}]
+2014-05-18 17:16:58.895 [notice] <0.94.0>@boss_record_compiler:make_generated_forms:225 Module "movie" Parameters ['Id','Title','Description'] Attributes[{compile,export_all}]
+2014-05-18 17:16:58.923 [info] <0.94.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  movies_api_view_lib_tags
+2014-05-18 17:16:58.971 [notice] <0.94.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/init/movies_api_01_news.erl" with options [{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]}] 
+2014-05-18 17:17:47.895 [notice] <0.271.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:17:47.898 [warning] <0.6.0> lager_error_logger_h dropped 78 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-18 17:17:47.898 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:17:47.914 [notice] <0.271.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-18 17:17:47.914 [notice] <0.271.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:17:47.914 [notice] <0.271.0>@boss_controller_adapter_pmod:action:100 [ChicagoBoss] The function movies_api_movies_controller:index/2 is not exported, if in doubt add -export([index/2])) to the module
+2014-05-18 17:17:47.925 [error] <0.271.0> POST /movies [movies_api] 404 0ms
+2014-05-18 17:18:06.049 [notice] <0.273.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:18:06.050 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:18:06.053 [notice] <0.273.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-18 17:18:06.053 [notice] <0.273.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:18:06.071 [info] <0.273.0> POST /movies/create [movies_api] 302 0ms
+2014-05-18 17:18:16.503 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:18:16.505 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:18:16.510 [notice] <0.275.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:18:16.510 [notice] <0.275.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:18:16.521 [info] <0.275.0> GET /movies/list [movies_api] 200 0ms
+2014-05-18 17:19:50.517 [notice] <0.277.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:19:50.518 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:19:50.521 [notice] <0.277.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-18 17:19:50.521 [notice] <0.277.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:19:50.523 [info] <0.277.0> POST /movies/create [movies_api] 302 0ms
+2014-05-18 17:20:10.353 [notice] <0.279.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:20:10.354 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:20:10.358 [notice] <0.279.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:20:10.358 [notice] <0.279.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:20:10.359 [info] <0.279.0> GET /movies/list [movies_api] 200 0ms
+2014-05-18 17:21:08.527 [notice] <0.283.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:21:08.527 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:21:08.531 [notice] <0.283.0>@boss_controller_adapter_pmod:action:91 Request Method 'POST'
+2014-05-18 17:21:08.531 [notice] <0.283.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:21:08.532 [info] <0.283.0> POST /movies/create [movies_api] 302 0ms
+2014-05-18 17:22:02.552 [notice] <0.286.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath movies_api
+2014-05-18 17:22:02.553 [info] <0.262.0> Loading routes from "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/priv/movies_api.routes" ....
+2014-05-18 17:22:02.556 [info] <0.286.0>@boss_controller_compiler:compile:59 Compile controller /Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl
+2014-05-18 17:22:02.556 [notice] <0.286.0>@boss_compiler:compile:47 Compile file "/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movies_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-18 17:22:02.563 [notice] <0.286.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-18 17:22:02.563 [notice] <0.286.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-18 17:22:02.564 [info] <0.286.0> GET /movies/list [movies_api] 200 0ms

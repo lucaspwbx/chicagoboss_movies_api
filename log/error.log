@@ -1,0 +1,11 @@
+2014-05-18 16:58:57.423 [error] <0.94.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:58:57.423 [error] <0.94.0>@boss_load:make_all_modules:88 Load Module Error controller_modules : [[{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]]
+2014-05-18 16:59:05.642 [error] <0.270.0> GET /movies [movies_api] 404 0ms
+2014-05-18 16:59:22.622 [error] <0.273.0> GET /movies/list [movies_api] 404 0ms
+2014-05-18 16:59:38.886 [error] <0.279.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:59:44.131 [error] <0.282.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 16:59:47.049 [error] <0.283.0>@boss_load:compile_and_accumulate_errors:261 Compile Error, "src/controller/movies_api_movie_controller.erl" -> [{"/Users/lucasweiblen/lucas/novos_estudos/chicago/movies_api/src/controller/movies_api_movie_controller.erl",[{4,erl_parse,["syntax error before: ","'('"]}]}]
+2014-05-18 17:00:00.544 [error] <0.288.0> GET /movie/ [movies_api] 404 0ms
+2014-05-18 17:03:29.676 [error] <0.271.0> GET /movies/ [movies_api] 404 0ms
+2014-05-18 17:04:14.291 [error] <0.275.0> GET /movies/ [movies_api] 404 0ms
+2014-05-18 17:17:47.925 [error] <0.271.0> POST /movies [movies_api] 404 0ms
