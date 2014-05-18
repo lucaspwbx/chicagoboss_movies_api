@@ -4,4 +4,89 @@ GET /movies/list [movies_api] 404 0ms2014-05-18 17:00:00 =ERROR REPORT====
 GET /movie/ [movies_api] 404 0ms2014-05-18 17:03:29 =ERROR REPORT====
 GET /movies/ [movies_api] 404 0ms2014-05-18 17:04:14 =ERROR REPORT====
 GET /movies/ [movies_api] 404 0ms2014-05-18 17:17:47 =ERROR REPORT====
-POST /movies [movies_api] 404 0ms
+POST /movies [movies_api] 404 0ms2014-05-18 17:59:35 =ERROR REPORT====
+** Generic server <0.262.0> terminating 
+** Last message in was {route,"/movies/"}
+** When Server state == {state,movies_api,["movies_api_greeting_controller","movies_api_movies_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-18 17:59:35 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.262.0>
+    registered_name: []
+    exception exit: {{undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.261.0>,boss_web,boss_sup,<0.92.0>]
+    messages: []
+    links: [<0.261.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2061
+  neighbours:
+2014-05-18 17:59:35 =SUPERVISOR REPORT====
+     Supervisor: {<0.261.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.262.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,movies_api},{controllers,["movies_api_greeting_controller","movies_api_movies_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-18 18:00:29 =ERROR REPORT====
+** Generic server <0.262.0> terminating 
+** Last message in was {route,"/movies/"}
+** When Server state == {state,movies_api,["movies_api_greeting_controller","movies_api_movies_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-18 18:00:29 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.262.0>
+    registered_name: []
+    exception exit: {{undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.261.0>,boss_web,boss_sup,<0.92.0>]
+    messages: []
+    links: [<0.261.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2061
+  neighbours:
+2014-05-18 18:00:29 =SUPERVISOR REPORT====
+     Supervisor: {<0.261.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.262.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,movies_api},{controllers,["movies_api_greeting_controller","movies_api_movies_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-18 18:01:07 =ERROR REPORT====
+** Generic server <0.272.0> terminating 
+** Last message in was {route,"/movies/"}
+** When Server state == {state,movies_api,["movies_api_greeting_controller","movies_api_movies_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-18 18:01:07 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.272.0>
+    registered_name: []
+    exception exit: {{undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.261.0>,boss_web,boss_sup,<0.92.0>]
+    messages: []
+    links: [<0.261.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 2061
+  neighbours:
+2014-05-18 18:01:07 =SUPERVISOR REPORT====
+     Supervisor: {<0.261.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{movies_api_movies_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,202}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,157}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.272.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,movies_api},{controllers,["movies_api_greeting_controller","movies_api_movies_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-18 18:05:59 =ERROR REPORT====
+PUT /movies/update/ [movies_api] 404 0ms
